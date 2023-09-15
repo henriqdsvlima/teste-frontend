@@ -1,0 +1,4 @@
+.container-nav {
+    @apply flex;
+    @apply bg-black;
+}
