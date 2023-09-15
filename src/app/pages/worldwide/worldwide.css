@@ -1,0 +1,38 @@
+.section-container {
+    @apply container mx-auto text-center;
+  }
+  
+  /* Para o div principal */
+  .main-div {
+    @apply bg-blue-500 text-white m-10 p-10 rounded-2xl;
+  }
+  
+  /* Para o título h2 */
+  .title {
+    @apply text-4xl mb-8;
+  }
+  
+  /* Para o formulário */
+  .form-container {
+    @apply w-full max-w-lg mx-auto;
+  }
+  
+  /* Para os elementos de formulário */
+  .form-element {
+    @apply mb-6;
+  }
+  
+  /* Para as labels do formulário */
+  .form-label {
+    @apply block text-white text-sm font-bold mb-2;
+  }
+  
+  /* Para os selects do formulário */
+  .form-select {
+    @apply appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight ;
+  }
+  
+  /* Para o botão */
+  .form-button {
+    @apply bg-white text-blue-500 hover:text-blue-700 font-bold py-2 px-4 rounded;
+  }

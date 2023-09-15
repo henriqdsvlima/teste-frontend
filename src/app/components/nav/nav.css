@@ -1,4 +1,8 @@
 .container-nav {
     @apply flex;
-    @apply bg-black;
+    @apply bg-indigo-600;
+    @apply p-2;
+    @apply absolute;
+    @apply bg-gray-800;
+    @apply mx-auto max-w-7xl px-2 sm:px-6 lg:px-8;
 }
